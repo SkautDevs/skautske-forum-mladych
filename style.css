@@ -209,6 +209,13 @@ a:hover, a:focus {
     margin-top: 0.5em;
 }
 
+.section__subtitle {
+    font-size: 1.35rem;
+    color: var(--color-primary);
+    margin-top: 1.4em;
+    margin-bottom: 0.2em;
+}
+
 .cards {
     display: grid;
     grid-template-columns: 1fr;
@@ -259,6 +266,10 @@ a:hover, a:focus {
 }
 .benefits__item:last-child {
     border-bottom: none;
+}
+
+.benefits--compact {
+    margin-top: 8px;
 }
 
 .benefits__item::before {
