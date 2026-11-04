@@ -8,8 +8,8 @@
     --color-text-invert: #ffffff;
     --color-text-muted: #5a6b7c;
 
-    --font-heading: "Skaut Bold", "TheMixC5", "TheMix LT", Georgia, serif;
-    --font-body: "TheMixC5", "TheMix LT", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-heading: "skautbold", "Skaut Bold", "TheMixC5", "TheMix LT", Georgia, serif;
+    --font-body: "themix", "TheMixC5", "TheMix LT", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 
     --radius-btn: 7px;
     --max-width: 960px;
