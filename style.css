@@ -316,6 +316,34 @@ a:hover, a:focus {
     color: var(--color-text);
 }
 
+.funding {
+    background: #ffffff;
+    color: var(--color-text);
+    padding: 40px 24px;
+    border-top: 1px solid var(--color-bg-alt);
+}
+
+.funding__inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.funding__logo {
+    display: block;
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    margin: 0 auto 16px;
+}
+
+.funding__text {
+    margin: 0 auto;
+    max-width: 640px;
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+}
+
 .site-footer {
     background: var(--color-primary);
     color: var(--color-text-invert);
