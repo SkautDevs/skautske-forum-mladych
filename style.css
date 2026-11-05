@@ -391,3 +391,22 @@ a:hover, a:focus {
 .site-footer p {
     margin: 0 0 0.4em;
 }
+
+.site-footer .site-footer__credit {
+    max-width: var(--max-width);
+    margin: 40px auto 0;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    font-size: 0.85rem;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.site-footer .site-footer__credit a {
+    text-decoration: none;
+}
+
+.site-footer .site-footer__credit a:hover,
+.site-footer .site-footer__credit a:focus {
+    text-decoration: underline;
+}
